@@ -33,13 +33,13 @@ boldy = boldy + SpeedY;
 
   } 
   
-  else if(boldx >= (height/2 + Sx/2)){
+  else if(boldx <=(height/2 -Sx/2)){
   SpeedX = abs(SpeedX);
       } 
 if(boldy >= (width/2 + Sy/2)){
   SpeedY = -abs(SpeedY);
     }
-  else if(boldy >= (height/2 + Sy/2)){
+  else if(boldy <=(height/2 -Sy/2)){
       SpeedY = abs(SpeedY);
 }
 }
